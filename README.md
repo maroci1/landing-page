@@ -27,4 +27,4 @@ Este proyecto es una landing page de una universidad ficticia y es el primero re
 
 ### Ver el proyecto online:
 
-Podes ver la landing page funcionando acá: [pagina_landing_page] (https://cyan-leopard-688998.hostingersite.com/)
+Podes ver la landing page funcionando acá: [pagina_landing_page](https://cyan-leopard-688998.hostingersite.com/)
