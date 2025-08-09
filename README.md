@@ -20,6 +20,6 @@ Esto me ha permitido aprender y plasmar los conceptos que he adquirido a fin de 
 ---
 
 ### Tecnologias aplicadas
--HTML
--CSS
+- HTML
+- CSS
 
