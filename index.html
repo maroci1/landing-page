@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icono-body.svg" type="image/svg+xml">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="icono-body.svg" alt="logo universidad">
+        <h1 class="nav__titulo">Universidad de Arkham</h1>
+    </div>
+
+    <div class="contenedor_general">
+
+        <div class="contenedor_solicitud">
+            <h2 class="contenedor_solicitud__item item--titulo">Estás a un clic de distancia</h2>
+            <h3 class="contenedor_solicitud__item item--soldeingr" >Solicitud de ingreso</h3>
+            <div class="item--boton"><!--chequear por que no puedo bajar el boton-->
+                <a  class="link__solicitud"  href="">Realizar solicitud</a>
+            </div>
+            <h2 class="contenedor_solicitud__item  item--bienvenido">Bienvenido a tu <span>futuro</span></h2>
+
+            
+        </div>
+            
+        
+            
+            <form class="formulario">
+                <fieldset>
+                    <legend>
+                        <h3 class="formulario__item">Solicitar información</h3>
+                    </legend>
+
+                    
+                    <div class="formulario__input">
+                        <label class="etiqueta__item">Nombre
+                            <input class="input" type="text" placeholder="Juan" required>
+                        </label>
+
+                    </div>
+                        
+                    <div class="formulario__input">
+                        <label class="etiqueta__item">Apellido
+                            <input class="input" type="text" placeholder="Gomez" required>
+                        </label>
+                    </div>
+
+                    
+                    <div class="formulario__input">
+                        <label class="etiqueta__item">Email
+                            <input class="input" type="email" placeholder="ejemplo@correo.com" required>
+                        </label>
+                    </div>
+                    
+                    <div class="formulario__input">
+                        <label class="etiqueta__item">Mensaje
+                            <textarea placeholder="Deja tu mensaje" maxlength="250" rows="7"  ></textarea>
+                        </label>
+
+                    </div>
+
+                    
+                </fieldset>
+                    <div class="formulario__boton">
+                         <a href="respuesta_formulario.html" class="boton__enviar" >Enviar</a>
+                    </div>
+
+
+                
+            </form>
+        
+    </div>
+   
+</body>
+</html>

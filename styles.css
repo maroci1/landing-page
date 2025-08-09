@@ -1,0 +1,189 @@
+html{
+    font-size: 1rem;
+}
+
+body{
+    background-color: rgb(50,110,170);
+    font-family:sans-serif;
+    margin: 0;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.nav__titulo{
+    margin: auto; /*me lo centrar porque el padre tiene flex*/
+    color:#f5f5f5;
+    letter-spacing: 4px;
+    font-size: 3rem;
+   
+}
+p{
+    text-align: center;
+    color:#f5f5f5;
+    font-size: 1.5rem;
+    margin-top: 100px;
+}
+.contenedor_general{
+    display: flex;
+    width: 1100px;
+    margin: auto; /*esto funciona porque el contenedor tiene definido el ancho que es 1100px*/
+    margin-top: 15px;
+
+}
+.contenedor_solicitud, .formulario{
+    border-radius: 8px;
+    background-color: #f5f5f5; 
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto; /* esto funciona porque si bien no hay ningun ancho definido, cada contenedor (contenedor_solicitud y formulario) ya tienen definido sus anchos. Entonces aca estoy aunando las 2 clases y poniendole la misma propiedad. Es lo mismo que ir a cada contenedor y ponerle margin:auto*/
+    
+
+}
+
+.contenedor_solicitud{
+    background-color: transparent;
+    color: #f5f5f5;
+    height: 380px;
+    width: 470px;
+   
+}
+
+.contenedor_solicitud__item{
+    font-size: 1.8rem;
+}
+
+.item--titulo{
+    margin-top: 25px;
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+}
+
+.item--soldeingr{
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.item--bienvenido{
+    margin-top: 50px;
+    font-size: 2.6rem;
+    letter-spacing: 3px;
+}
+
+
+span{
+    color:#f5f5f5;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.5s ease-in-out;
+}
+span:hover{
+    border-color: #f5f5f5;
+    font-size: 3rem;
+}
+
+.formulario{
+    
+    width: 380px;
+    height: 500px;
+    padding: 20px 25px;
+    
+}
+
+
+fieldset{
+    border: 1px solid;
+    text-align: left;
+    
+}
+
+.formulario__item{
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.input, textarea{
+    box-sizing: border-box;
+    width: 300px;
+    margin: 3px auto 15px;
+    padding: 5px 0 ;
+}
+
+textarea{
+    font-family: sans-serif;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.input[type="email"]:valid{
+    color:green;
+}
+
+.input[type="email"]:invalid{
+    color:red;
+}
+
+.formulario__boton{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.boton__enviar{
+    background-color: rgb(50,110,170);
+    color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(50,110,170);
+    font-size: 1.1rem;
+    text-decoration: none;
+
+}
+
+
+.formulario__boton:hover{
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.boton__enviar:active{
+    color:cadetblue;
+}
+
+.item--boton{
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+
+    background-color: #f5f5f5;
+    font-size: 1.1rem;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+    width: 180px;
+    padding: 15px 12px;
+    text-decoration: none;
+    color:#0007
+}
+.link__solicitud{
+    color:#000b;
+    font-size: 1.1rem;  
+    text-decoration: none; 
+}
+
+
+.item--boton:hover{
+    cursor: pointer;
+    background-color: #e1e1e1;
+    transform: scale(1.1)
+}
+
+.link__solicitud:active{
+    color:cadetblue;
+}
+
+
+    
+
