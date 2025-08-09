@@ -15,11 +15,16 @@ Este proyecto es una landing page de una universidad ficticia y es el primero re
 ---
 
 ### Lo que aprendí:
-Esto me ha permitido aprender y plasmar los conceptos que he adquirido a fin de demostrar mis habilidades hasta el momento.
-
+- Esto me ha permitido aprender y plasmar los conceptos que he adquirido a fin de demostrar mis habilidades hasta el momento.
+- Estructuraciòn y metodología BEM.
 ---
 
-### Tecnologias aplicadas
+### Tecnologias aplicadas:
 - HTML
 - CSS
 
+---
+
+### Ver el proyecto online:
+
+Podes ver la landing page funcionando acá: [pagina_landing_page] (https://cyan-leopard-688998.hostingersite.com/)
