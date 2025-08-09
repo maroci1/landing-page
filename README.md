@@ -4,8 +4,8 @@ Este proyecto es una landing page de una universidad ficticia y es el primero re
 
 ## La misma cuenta con:
 - Un formulario para rellenar.
-- Un boton de enviar linkeado a un segundo archivo html donde indica que sera contactado en breve. 
-- Del lado izquierdo cuenta con otro boton que no linkea a ningún lado, solo es de vista.
+- Un botòn de enviar linkeado a un segundo archivo html donde indica que será contactado en breve. 
+- Del lado izquierdo cuenta con otro botón que no linkea a ningún lado, solo es de vista.
 
 ## El formulario se destaca por:  
 - EL campo del correo se colorea en rojo si el formato de email no es correcto y de ser correcto, se colorea de verde.
