@@ -20,8 +20,8 @@ Este proyecto es una landing page de una universidad ficticia y es el primero re
 ---
 
 ### Tecnologias aplicadas:
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 ---
 
